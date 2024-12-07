@@ -19,11 +19,10 @@ builder.Services.AddSwaggerGen();
 // Agregar los controladores
 builder.Services.AddControllers();
 
-// Configuración de CORS para permitir que el frontend (React) se comunique con el backend
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
-        builder => builder.WithOrigins("http://localhost:3000") // Cambiar a la URL de tu frontend
+        builder => builder.WithOrigins("https://nice-smoke-0601c8c10.4.azurestaticapps.net") // La URL de tu frontend en Azure
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });

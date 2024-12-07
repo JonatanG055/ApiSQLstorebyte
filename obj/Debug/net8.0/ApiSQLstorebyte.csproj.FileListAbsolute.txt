@@ -512,3 +512,4 @@
 /home/ely/ApiSQLstorebyte/obj/Debug/net8.0/ApiSQLstorebyte.pdb
 /home/ely/ApiSQLstorebyte/obj/Debug/net8.0/ApiSQLstorebyte.genruntimeconfig.cache
 /home/ely/ApiSQLstorebyte/obj/Debug/net8.0/ref/ApiSQLstorebyte.dll
+/home/ely/ApiSQLstorebyte/obj/Debug/net8.0/ApiSQLstorebyte.sourcelink.json
