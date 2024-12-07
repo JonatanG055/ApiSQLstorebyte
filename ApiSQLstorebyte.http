@@ -1,0 +1,6 @@
+@ApiSQLstorebyte_HostAddress = http://localhost:5045
+
+GET {{ApiSQLstorebyte_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
